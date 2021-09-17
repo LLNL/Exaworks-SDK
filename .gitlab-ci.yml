@@ -24,7 +24,6 @@ run_test:
   stage: test
   before_script:
     - whoami
-    - ls
   tags:
     - quartz
     - batch
